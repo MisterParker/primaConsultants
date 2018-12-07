@@ -1,0 +1,33 @@
+
+
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    #logo-prima {
+      min-width: 70%;
+      padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+    #logo-prima {
+      min-width: 40%;
+      padding-top: 4%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+    /* It's possible to hide the image if the screen becomes too small */
+    #logo-prima  {
+      min-width: 20%;
+      padding-top: 6%;
+      padding-bottom: 4%;
+    }
+}
+
+
+
+

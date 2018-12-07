@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "PRIMA",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
